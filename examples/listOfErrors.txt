@@ -1,0 +1,83 @@
+stringContains is not yet defined for Puppet,PowerShell,Gambas,Haxe,Hack,Clojure,Visual Basic,Common Lisp,Nemerle,Scala,Go,AutoIt,Vala,Swift,R,Rust,Groovy,AutoHotkey,Gosu,Julia,AWK,F#,OCaml
+add is not yet defined for Puppet
+divide is not yet defined for Puppet
+greaterThan is not yet defined for Puppet
+lessThan is not yet defined for Puppet
+greaterThanOrEqual is not yet defined for Puppet
+lessThanOrEqual is not yet defined for Puppet
+getCorrespondingTypeWithoutBrackets is not yet defined for Puppet and the type integer,PowerShell and the type integer
+compare is not yet defined for the type Integer and the language Gambas and the list ['10', '5']
+getCorrespondingTypeWithoutBrackets is not yet defined for Hack and the type string,Clojure and the type integer,Common Lisp and the type integer
+compare is not yet defined for the type int and the language Nemerle and the list ['10', '5']
+getCorrespondingTypeWithoutBrackets is not yet defined for AutoIt and the type integer,R and the type integer,Rust and the type integer,AutoHotkey and the type integer
+compare is not yet defined for the type int and the language Gosu and the list ['10', '5']
+getCorrespondingTypeWithoutBrackets is not yet defined for OCaml and the type string
+initializationRequiresType is not yet defined for Puppet,PowerShell,Gambas
+getCorrespondingTypeWithoutBrackets is not yet defined for Hack and the type bool
+initializeScalar is not yet defined for Clojure with the type bool and the initial value false
+getCorrespondingTypeWithoutBrackets is not yet defined for R and the type false,Rust and the type false,AutoHotkey and the type false,Gosu and the type false
+initializationRequiresType is not yet defined for Puppet,PowerShell,Gambas
+initializeScalar is not yet defined for Clojure with the type int and the initial value 1,Rust with the type int and the initial value 1,AutoHotkey with the type int and the initial value 1
+Not is not yet defined for Puppet,Gosu
+globalReplace is not yet defined for Puppet,PowerShell,Gambas,C,Dart,Haxe,Hack,Clojure,Perl,Visual Basic,Common Lisp,Nemerle,Scala,Go,AutoIt,Vala,Swift,R,Rust,Groovy,AutoHotkey,Gosu,REBOL,Julia,AWK,F#,OCaml
+regexMatchesString is not yet defined for Puppet,PowerShell,Gambas,C,Lua,Dart,Hack,Ruby,Clojure,Perl,Visual Basic,Common Lisp,Nemerle,Go,AutoIt,Vala,Swift,R,Rust,Groovy,AutoHotkey,Gosu,REBOL,Julia,AWK,F#,OCaml
+startForEach is not yet defined for Puppet,C,Rust,AutoHotkey,Gosu,Julia,OCaml
+getReturnStatement is not yet defined for Puppet
+getMacroParameters is not yet defined for PowerShell,C#,Gambas,Java,Python,Lua,PHP,Dart,CoffeeScript,Haxe,Hack,Ruby,Perl,Visual Basic,Nemerle,Scala,Go,AutoIt,Vala,Swift,R,Rust,Groovy,AutoHotkey,Gosu,REBOL,Julia,AWK,F#,OCaml
+And is not yet defined for Puppet
+Or is not yet defined for Puppet
+add is not yet defined for Puppet
+startMethod is not yet defined for Gambas
+getCorrespondingTypeWithoutBrackets is not yet defined for Rust and the type int
+getArrayInitializer is not yet defined for Puppet,PowerShell,Gambas
+args is not yet defined for C,Dart,CoffeeScript
+getArrayInitializer is not yet defined for Hack,Clojure,Common Lisp
+args is not yet defined for Nemerle
+getArrayInitializer is not yet defined for AutoIt,Vala,R,Rust
+args is not yet defined for Groovy
+getArrayInitializer is not yet defined for AutoHotkey,Gosu
+args is not yet defined for REBOL
+getArrayInitializer is not yet defined for Julia,AWK
+args is not yet defined for F#
+getArrayInitializer is not yet defined for OCaml
+startWhile is not yet defined for Puppet,Clojure
+concatenateStrings is not yet defined for Puppet,PowerShell,Rust,AutoHotkey
+accessArray is not yet defined for Puppet,PowerShell,Gambas,Hack,Clojure,Common Lisp,Nemerle,Swift,R,Rust,Groovy,AutoHotkey,Gosu,F#,OCaml
+stringLength is not yet defined for Puppet,PowerShell,Hack,Rust,Julia,F#
+arrayLength is not yet defined for Puppet,Gambas,Lua,Hack,Nemerle,AutoIt,R,AutoHotkey,Gosu,Julia,AWK,F#,OCaml
+charAt is not yet defined for Puppet,PowerShell,Gambas,Hack,Clojure,Common Lisp,Nemerle,AutoIt,Swift,R,Rust,Groovy,AutoHotkey,Gosu,Julia,AWK,OCaml
+greaterThan is not yet defined for Puppet
+puts is not yet defined for PowerShell,Hack
+startWhile is not yet defined for Clojure
+puts is not yet defined for AutoIt,AutoHotkey,Puppet,PowerShell,Hack
+startForInRange is not yet defined for Clojure
+puts is not yet defined for AutoIt
+startFor is not yet defined for Vala
+puts is not yet defined for AutoHotkey
+startForInRange is not yet defined for Gosu
+raiseToExponent is not yet defined for Puppet,PowerShell,Nemerle,Vala,Gosu,OCaml
+getCorrespondingTypeWithoutBrackets is not yet defined for Puppet and the type integer,PowerShell and the type integer
+compare is not yet defined for the type Integer and the language Gambas and the list ['engScript_a', '2']
+getCorrespondingTypeWithoutBrackets is not yet defined for Hack and the type string,Clojure and the type integer,Common Lisp and the type integer
+compare is not yet defined for the type int and the language Nemerle and the list ['engScript_a', '2']
+getCorrespondingTypeWithoutBrackets is not yet defined for AutoIt and the type integer,R and the type integer,Rust and the type integer,AutoHotkey and the type integer
+compare is not yet defined for the type int and the language Gosu and the list ['engScript_a', '2']
+getCorrespondingTypeWithoutBrackets is not yet defined for OCaml and the type string,Puppet and the type true,PowerShell and the type true
+startCase is not yet defined for Python,Lua,Perl,Nemerle,R,Rust
+getCorrespondingTypeWithoutBrackets is not yet defined for AutoHotkey and the type true,Gosu and the type true
+startCase is not yet defined for Julia
+getCorrespondingTypeWithoutBrackets is not yet defined for Puppet and the type string,PowerShell and the type string
+compare is not yet defined for the type String and the language Gambas and the list ['engScript_a', 'engScript_b']
+getCorrespondingTypeWithoutBrackets is not yet defined for Hack and the type string,Clojure and the type string,Common Lisp and the type string
+compare is not yet defined for the type string and the language Nemerle and the list ['engScript_a', 'engScript_b']
+getCorrespondingTypeWithoutBrackets is not yet defined for AutoIt and the type string,R and the type string,Rust and the type string,AutoHotkey and the type string
+compare is not yet defined for the type String and the language Gosu and the list ['engScript_a', 'engScript_b'],the type string and the language Julia and the list ['engScript_a', 'engScript_b']
+getCorrespondingTypeWithoutBrackets is not yet defined for OCaml and the type string
+args is not yet defined for Puppet,PowerShell,Gambas,C,Dart,CoffeeScript,Hack,Clojure,Common Lisp,Nemerle,Vala,R,Rust,Groovy,AutoHotkey,Gosu,REBOL,AWK,F#,OCaml
+getCorrespondingTypeWithoutBrackets is not yet defined for Puppet and the type string,PowerShell and the type string
+compare is not yet defined for the type String and the language Gambas and the list ['engScript_a', 'engScript_b']
+getCorrespondingTypeWithoutBrackets is not yet defined for Hack and the type string,Clojure and the type string,Common Lisp and the type string
+compare is not yet defined for the type string and the language Nemerle and the list ['engScript_a', 'engScript_b']
+getCorrespondingTypeWithoutBrackets is not yet defined for AutoIt and the type string,R and the type string,Rust and the type string,AutoHotkey and the type string
+compare is not yet defined for the type String and the language Gosu and the list ['engScript_a', 'engScript_b'],the type string and the language Julia and the list ['engScript_a', 'engScript_b']
+getCorrespondingTypeWithoutBrackets is not yet defined for OCaml and the type string

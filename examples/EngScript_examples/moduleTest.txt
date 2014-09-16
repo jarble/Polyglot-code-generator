@@ -1,0 +1,15 @@
+module
+	concatenate the arrays [a, b];
+	concatenate the strings [a, b];
+	compare the strings [4,5];
+	dictionary b = [foo: 1, bar : 2]
+	string a = "haha";
+	dictionary b = [foo: 1, bar : 2]
+	def int add [int, int] [a, b]
+		return a + b;
+	def int multiply [int, int] [a, b]
+		return a * b;
+	def int subtract [int, int] [a, b]
+		return a - b;
+	def int squared [int] [a]
+		return a * a;

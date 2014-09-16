@@ -1,0 +1,33 @@
+#The grammar is generated from this initial input.
+englishToRegex = [
+                  "the type of <<foo>> is <<bar>>",
+                  "split(| the string) <<foo>> (using|with) the (regular expression|regex) <<bar>>",
+                  "(every|each) <<foo>> in <<bar>> ((that|which) meets the condition|where|for which|(such|so) that) <<baz>>",
+                  "(<<foo>> (sorted|arranged) in order of (descending|decreasing) length)",
+                  "[ <<foo>> ]",
+                  "<<foo>> (:=|=) <<bar>>",
+                  "<<foo>> ;",
+                  "var <<foo>> = <<bar>>",
+                  "<<foo>> (+=|+ =) <<bar>>",
+                  "<<foo>> (++|+ +)",
+                  "<<foo>> (--)",
+                  "(def|function) <<foo>> <<bar>> <<baz>>",
+                  "(def|function) <<foo>> <<bar>>",
+                  "return <<foo>>",
+                  "<<foo>> { <<bar>> }",
+                  "<<bar>> {}",
+                  "for <<foo>> in <<bar>> <<baz>>",
+                  "while <<foo>> <<bar>>",
+                  "(elif|elsif|else if) <<foo>> <<bar>>",
+                  "if <<foo>> <<bar>>",
+                  "(else|otherwise) <<foo>>",
+                  "(not|!) <<foo>>",
+                  "until <<foo>> <<bar>>",
+                  "<<foo>> = { <<bar>>",
+                  "<<foo>> : <<bar>>",
+                  "<<foo>> ,",
+                  "twice <<foo>>",
+                  "thrice <<foo>>",
+                  ]
+for idx, val in enumerate(englishToRegex):
+    englishToRegex[idx] = [[englishToRegex[idx]], val, "final"]

@@ -1,0 +1,119 @@
+module EngScriptTest
+	for i from 1 to 2
+		1;
+	for i in 1..2
+		1;
+	index i of the array a;
+	a .. a;
+	(the length of the array foo);
+	(the length of the string derp);
+	#switch a
+	#	case a
+	#		a
+	#	default
+	#		p
+	3 ^ 10
+	3 .. 3
+	int j = 5;
+	// "These functions are intended to be used in the EngScript compiler"
+	int j = 1;
+	3*4
+	3+5
+	3/7
+	q and a
+	def int derp [int] [wow]
+		while a
+			a
+		hello;
+	
+	def int lol [int] [thing]
+		#switch a
+		#	case a
+		#		s
+		#	default
+		#		g
+		if a
+			a
+		else
+			guh
+	
+	def string randomStringGenerator [] []
+		return [a random item in the list [1, 3, 5, 3]];
+	print (a random number between 2 and 5)
+	print (a random number larger than 2 but less than 7)
+	print (a random number that is larger than 2 and less than 5)
+	cond
+		if a
+			b;
+		elif v
+			d;
+		else
+			d;
+	comment "The next line uses the string concatenation operator"
+	str1 .. str2
+	comment "The next line uses the array concatenation operator"
+	arr1 ++ arr2
+	def string openingTag [string] [theTag]
+		return "<" .. theTag .. ">";
+	def string closingTag [string] [theTag]
+		return "</" .. theTag .. ">";
+	def string surroundWithTag [string, string] [theString, theTag]
+		return openingTag{theTag} .. theString .. closingTag{theTag};
+	def string boldText [string] [str1]
+		return surroundWithTag{str1, "b"};
+	def string italicText [string] [str1]
+		return surroundWithTag{str1, "i"};
+	def string boldWikiText [string] [str1]
+		return  "'''" ..  str1 .. "'''";
+	def string italicWikiText [string] [str1]
+		return  "''" ..  str1 .. "''";
+	def string wikiLink [string, string] [pageTitle, linkText]
+		return "[["  .. pageTitle .. "|" .. linkText .. "]]";
+	def string markdownLink [string, string] [theURL, linkText]
+		return "[" .. linkText .. "](" .. theURL .. ")";
+	the length of the string "hello"
+	substring of a from index 2 to index 5
+	#index 2 of the string bar
+	#switch a
+	#	case a
+	#		blah
+	#	default
+	#		heh
+	concatenate the strings ["derp", "herp"];
+	3 > 4
+	3 < 4
+	3 >= 4
+	3 <= 4
+	print lawz
+	foreach int a in b
+		derp
+	#while a
+	#	a
+	comment "Hello World!"
+	concatenate the strings ["common ", " lisp"]
+	#string a = "Hello!"
+	#int a = 1;
+	#int b = 2;
+	def int helloWorld [int, int] [a, b]
+		#print a
+		cond
+			if a
+				return 3 - (((1*1)+2) / 4);
+			elif b
+				return 2;
+			else
+				return 3;
+	#class derp [int, int] [a, b]
+	#	private int a;
+	#	private int b;
+	#	constructor derp [int, int] [a, b]
+	#		derp
+	#	print (self.a);
+	#derp theDerp = new derp{10, 12};
+	#typeof var_a;
+	#concatenate the arrays [a, b];
+	#concatenate the strings [a, b];
+	#compare the strings [4,5];
+	#dictionary b = [foo: 1, bar : 2]
+	#string a = "haha";
+	#import foo;

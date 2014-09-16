@@ -1,0 +1,74 @@
+module
+
+	
+	
+	char[] b = 4;
+	
+	def string firstNCharacters [string, int] [theString, n]
+		return (substring of theString from index 0 to index n);
+	def string arrayContainsSplit [string, string] [theLang, theString]
+		return (the array (split the string theString with the string ",") contains theLang)
+	def string langException [string, string] [lang, theFunction]
+		return theFunction .. " is not yet defined for " .. lang;
+		
+	def string print [string, string] [lang, toPrint]
+		cond
+			if arrayContainsSplit{lang, "Python"}
+				return "print(" .. toPrint .. ")";
+			elif arrayContainsSplit{lang, "JavaScript"}
+				return "console.log(" .. toPrint .. ")"
+		raise exception langException{lang, "print"};
+	def string error [string, string] [lang, toPrint]
+		cond
+			if arrayContainsSplit{lang, "Python"}
+				return "raise Exception(" .. toPrint .. ")";
+		raise exception langException{lang, "error"};
+	def string endCodeBlock [string] [lang]
+		cond
+			if arrayContainsSplit{lang, "CoffeeScript,Cobra,Python,Haskell,F#,Cython,Nimrod"}
+				return "";
+			elif arrayContainsSplit{lang, "REBOL"}
+				return "]";
+			elif arrayContainsSplit{lang, "JavaScript,Hack,D,Ceylon,ActionScript,Rust,TypeScript,Swift,AutoHotKey,Gosu,AWK,bc,C,Nemerle,Tcl,Groovy,R,Java,Dart,Scala,Squirrel,JavaScript,C#,Haxe,Perl,PHP,Go,C++,Vala,Dylan,Pike"}
+				return "}";
+			elif arrayContainsSplit{lang, "Lua,Ruby,MATLAB,Oz,Falcon,Julia"}
+				return "end";
+			elif arrayContainsSplit{lang, "Clojure,Emacs Lisp,Common Lisp,Racket,Scheme,LispyScript,Sibilant"}
+				return ")";
+			elif arrayContainsSplit{lang, "Delphi,Pascal"}
+				return "end;";
+			else
+				raise exception langException{lang, "endCodeBlock"};
+	def string startWhile [string, string] [lang, condition]
+		raise exception langException{lang, "startWhile"};
+		
+	def string joinList [string[], string] [theStrings, theSeparator]
+		return (join the list theStrings with the separator theSeparator);	
+	
+	def string add [string, string] [lang, numArray]
+	    if arrayContainsSplit{lang, "Tcl"}
+        	return "[expr " .. joinList{numArray, " + "} .. "]";
+	    elif arrayContainsSplit{lang, "Bash"}
+	        return "((" .. joinList{numArray, " + "} .. "))";
+	    elif arrayContainsSplit{lang, "Racket,LispyScript,Sibilant,Clojure,Common Lisp,Scheme"}
+	        return "(+ " .. joinList{numArray, " "} .. ")";
+	    #if arrayContainsSplit{lang, "Polish notation"}
+	    #    return "+" .. joinList([""]+numArray[0:len(numArray)-1]) .. " " + numArray[len(numArray)-1]
+		raise exception langException{lang, "add"};
+	
+	def string initializeDictionary2 [string, string] [lang, initialValue]
+		if arrayContainsSplit{lang, "Ruby,Python,Dart,JavaScript,Haxe"}
+        	return "{" .. joinList{initialValue, ", "} .. "}";
+	    elif arrayContainsSplit{lang, "Scala"}
+	        return "Map(" .. joinList{initialValue, ", "} .. ")";
+	    elif arrayContainsSplit{lang, "Groovy"}
+	        return "[" .. joinList{initialValue, ", "} .. "]";
+	    elif arrayContainsSplit{lang, "REBOL"}
+	        return "to-hash [" .. joinList{initialValue, " "} .. "]";
+	    elif arrayContainsSplit{"Perl,Perl 6"}
+	        return "(" .. joinList{initialValue, ","} .. ")";
+	    elif arrayContainsSplit{lang, "PHP"}
+	        return "array(" .. joinList{initialValue, ","} .. ")";
+	    elif arrayContainsSplit{lang, "Java"}
+	        return "new HashMap<String, String>();\n" .. joinList{initialValue, ";\n"};
+	    raise exception langException{lang, "initializeDictionary2"};

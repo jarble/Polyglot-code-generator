@@ -1,0 +1,17 @@
+
+
+string engScript_a = "Hello!"
+int engScript_a = 1;
+int engScript_b = 2;
+(3 > 4)
+(3 < 4)
+(>= 3 4)
+(3 <= 4)
+proc engScript_helloWorld = (int engScript_a, int engScript_b) int:
+    if engScript_a then
+        (3 - (((1 * 1) + 2) / 4));
+    elif engScript_b then
+        2;
+    else
+        3;
+    fi;
